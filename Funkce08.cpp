@@ -13,7 +13,6 @@ bool JePrvocislo(int n, int& minD, int& maxD)
 	{
 		prvocislo = false;
 	}
-
 	for (int i = 2; i <= sqrt(n); i++)
 	{
 		if (n % i == 0)
